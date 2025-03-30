@@ -97,6 +97,6 @@ services:
 volumes:
   pgdata2:
 
-  networks:
+networks:
   ai-net:
     driver: bridge
